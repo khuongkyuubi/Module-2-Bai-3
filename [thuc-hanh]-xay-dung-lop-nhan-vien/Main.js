@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Staff_1 = require("./Staff");
+var staff = new Staff_1.Staff("Staff 1", "satff@gamil.com", 20);
+var nameStaff = staff.getName();
+console.log(nameStaff);
+staff.setName("Staff 2");
+var currentName = staff.getName();
+console.log(currentName);
+console.log(staff.getAge());
