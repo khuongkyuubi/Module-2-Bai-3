@@ -1,7 +1,7 @@
 export class Staff {
-    name: string;
-    email: string;
-    age: number;
+    public name: string;
+    public email: string;
+    public age: number;
 
     constructor(name: string, email: string, age: number) {
         this.name = name;
